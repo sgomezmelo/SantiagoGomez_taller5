@@ -15,7 +15,7 @@ int main(){
   double h = 5.0/512.0;
   double Vo = 100;
 
-  int N_iter = (L/h)*(L/h)*2;
+  int N_iter = (L/h)*(L/h)/5;
   int n = L/h + 1;
 
   double *x = new double[n];
