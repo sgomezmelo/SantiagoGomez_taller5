@@ -9,6 +9,8 @@ p2 = datos[:,1]
 
 plt.figure()
 plt.scatter(q2,p2)
+plt.xlabel('q2')
+plt.ylabel('p2')
 #plt.plot(t,q2)
 #plt.plot(t,q3)
 plt.savefig('caos.pdf')
